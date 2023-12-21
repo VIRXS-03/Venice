@@ -1,0 +1,116 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    background-image: linear-gradient(#DAD2BC, #F5F1ED);
+}
+
+.header{
+    text-align: center;
+    background-image: url("https://media1.giphy.com/media/By7xvI3f9EUF2/giphy.gif?cid=ecf05e47i0nsoj54b53x1qqbw2st7so658kz40pla3m8by5y&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-size: cover;
+    width: 100%;
+    background-size: 100% 100%;
+    border: 1px solid #A99985;
+    color: #DAD2BC;
+    text-shadow: 0 0 10px black;
+    margin:0px;
+    font-size: 12px;
+}
+.activities{
+    color:#252323;
+    text-shadow: 0 0 50px white ;            
+    margin: 0px;
+    text-align: center;
+
+}
+.images{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+#gift-img-happy:hover {
+    background-image: url("images/happy.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/hot.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("images/genius.gif");
+}
+#img-park{
+    border:1px solid #70798C;
+    border-radius: 50%; 
+    margin-bottom : 30px;
+    width: 100px;
+    height: 100px;
+}
+#img-park:hover {
+    background-image: url("images/park.jpg");
+}
+#img-theatre{
+    border:1px solid #70798C;
+    border-radius: 50%;
+    margin-bottom : 30px;
+    width: 100px;
+    height: 100px;
+}
+#img-theatre:hover {
+    background-image: url("images/theatre.jpg");
+}
+#img-sports{
+    border:1px solid #70798C;
+    border-radius: 50%;
+    margin-bottom : 30px ;
+    width: 100px;
+    height: 100px;
+     overflow-wrap: break-word;
+}
+#img-sports:hover {
+    background-image: url("images/sports.jpg");
+}
+.guide{
+    margin-top:100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content:center; 
+    align-items:center;
+    border: 1px solid #70798C;
+    border-radius: 3%;
+    background:#A99985; 
+    width: 400px;
+    color:#DAD2BC;
+    text-shadow: 0 0 5px black; 
+}
+#profilepic{
+    border:1px solid #70798C;
+    border-radius: 50%;
+    width: 100px;
+}
+#hov{
+    margin-top:0;
+}
+#act-title{
+    margin-bottom:0;
+}
